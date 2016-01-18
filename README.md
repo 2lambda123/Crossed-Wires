@@ -1,4 +1,4 @@
-# CodeJam coding challenge:[Rope Intranet](https://code.google.com/codejam/contest/619102/dashboard#s=p0)
+# CodeJam coding challenge: [Rope Intranet](https://code.google.com/codejam/contest/619102/dashboard#s=p0)
 The following problem is copied from: https://code.google.com/codejam/contest/619102/dashboard#s=p0
 ##Problem
 A company is located in two very tall buildings. The company intranet connecting the buildings consists of many wires, each connecting a window on the first building to a window on the second building.
@@ -59,6 +59,6 @@ No three wires intersect at the same point.
 
 ______________________________________________________________________________________________________________________________________
 #My Solution
-
+##The Logic:
 
 
