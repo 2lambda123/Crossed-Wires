@@ -60,5 +60,45 @@ No three wires intersect at the same point.
 ______________________________________________________________________________________________________________________________________
 #My Solution
 ##The Logic:
+A wire **x** can only intersect a wire **y** 
+
+if the floor number of the right buliding **x>y** and  floor number of the left buliding **x<y**</br>
+or </br>
+if the floor number of the right buliding **x<y** and number of the left buliding **x>y**</br>
+
+It is not nessesiary to calculate the values for where these intersections occur as the challange states:</br>
+"You've also noticed that *exactly two wires meet at each intersection point*."
+
+##My Method:
+I have taken each new wire an compared it to a stored list of existing wires and used a counter to track the number of 
+additional intersections created by each addtional wire.
+
+##Files
+
+There are 4 java files in this program:
+
+- [Intersections.java] (https://github.com/ya2287c/Crossed-Wires/blob/master/Intersections.java)
+  * This file takes in the set of wires and tracks the number of intersections created base on the logic
+     explained above
+- [Wire.java] (https://github.com/ya2287c/Crossed-Wires/blob/master/Wire.java)
+  * This file contains the wire class which is the fundamental object of this challenge.  
+- [FileInput.java] (https://github.com/ya2287c/Crossed-Wires/blob/master/FileInput.java)
+  * This file passes the input from the text files provided by the challenge, these text file names are hard coded 
+    into the java file 
+- [Runner.java] (https://github.com/ya2287c/Crossed-Wires/blob/master/Runner.java)
+  * This file just runs the program, it's only purpose to start, run, and end the program.
+    I've assumed a 'smart' user design in that the progam prompts to user only once whether
+    to run the 'small' input-file or the 'large' input-file
+    the program only reponds to an input of 'small' or 'large' and exits upon completion
+    users who want to run both the small and large input-files must execute the program twice
+
+Additionally, I've included the 2 text files provided by the CodeJam coding challenge at:
+https://code.google.com/codejam/contest/189252/dashboard#s=p0
+- A-large-practice.in
+- A-small-practice.in
+
+Lastly, I've included my results in 2 text files:
+- large.out
+- small.out
 
 
