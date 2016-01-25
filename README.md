@@ -23,7 +23,7 @@ The next **N** lines each describe one wire with two integers **A<sub>i</sub>** 
 
 ###Output
 
-For each test case, output one line containing "Case #x: y", where x is the case number (starting from 1) and y is the number of intersection points you see.
+For each test case, output one line containing "Case #**x**: **y**", where **x** is the case number (starting from 1) and **y** is the number of intersection points you see.
 
 ######Limits
 
