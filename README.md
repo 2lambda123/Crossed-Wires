@@ -92,8 +92,8 @@ There are 4 java files in this program:
     the program only reponds to an input of 'small' or 'large' and exits upon completion
     users who want to run both the small and large input-files must execute the program twice
 
-Additionally, I've included the 2 text files provided by the CodeJam coding challenge at:
-https://code.google.com/codejam/contest/189252/dashboard#s=p0
+Additionally, I've included the 2 text files provided by the CodeJam coding challenge at:</br>
+https://code.google.com/codejam/contest/619102/dashboard#s=p0
 - A-large-practice.in
 - A-small-practice.in
 
